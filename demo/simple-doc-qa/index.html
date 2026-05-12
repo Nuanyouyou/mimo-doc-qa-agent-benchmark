@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiMo Doc QA Demo</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>MiMo Doc QA Demo</h1>
+    <p class="desc">用于模拟中文文档问答 Agent 的基础流程</p>
+
+    <label>文档内容</label>
+    <textarea id="docInput" placeholder="请粘贴中文文档内容..."></textarea>
+
+    <label>问题</label>
+    <input id="questionInput" type="text" placeholder="例如：目标用户是谁？" />
+
+    <button id="askBtn">生成回答</button>
+
+    <section class="result">
+      <h2>回答</h2>
+      <p id="answer">等待输入...</p>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
